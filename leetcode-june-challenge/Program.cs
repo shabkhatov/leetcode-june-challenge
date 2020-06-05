@@ -6,7 +6,8 @@ namespace leetcode_june_challenge
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var res = new Day5_Random_Pick_with_Weight();
+            res
         }
     }
 }
