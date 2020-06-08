@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace leetcode_june_challenge
 {
@@ -6,8 +7,8 @@ namespace leetcode_june_challenge
     {
         static void Main(string[] args)
         {
-            var res = new Day5_Random_Pick_with_Weight();
-            res
+            var result = new Day7_Coin_Change_2().Change(5, new int[] { 2, 5 });
+            Console.WriteLine($"{result}");
         }
     }
 }
