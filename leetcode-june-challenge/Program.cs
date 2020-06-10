@@ -7,8 +7,10 @@ namespace leetcode_june_challenge
     {
         static void Main(string[] args)
         {
-            var result = new Day8_Power_of_Two().IsPowerOfTwo(218);
-            Console.WriteLine($"{result}");
+            var result = new Day10_Search_Insert_Position()
+                .SearchInsert(new int[] { 1, 3, 5, 6 }, 2);
+
+            Console.WriteLine($"Result: {result}");
         }
     }
 }
