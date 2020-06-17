@@ -7,8 +7,12 @@ namespace leetcode_june_challenge
     {
         static void Main(string[] args)
         {
-            var result = new Contest().MinSumOfLengths(new int[]{1, 6, 1}, 7);
-            Console.WriteLine($"Result: {result}");
+            new Day17_Surrounded_Regions().Solve(
+                new char[][]{ 
+                    new char[] { 'O', 'O'},
+                    new char[] {'O', 'O'}
+                }
+            );
         }
     }
 }
